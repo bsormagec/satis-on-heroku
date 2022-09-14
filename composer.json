@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "php": "^7.1",
         "composer/satis": "dev-master",
         "twig/twig": "^1.7",
         "symfony/http-foundation": "^3.0",

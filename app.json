@@ -1,7 +1,7 @@
 {
     "name": "Satis on Heroku",
     "description": "Satis instance running on Heroku",
-    "repository": "https://github.com/Matthimatiker/satis-on-heroku",
+    "repository": "https://github.com/bsormagec/satis-on-heroku",
     "keywords": [
         "Satis",
         "Composer"
@@ -43,7 +43,7 @@
             "required": false
         },
         "SATIS_REPOSITORY_EXAMPLE": {
-            "value": "https://github.com/Matthimatiker/satis-on-heroku",
+            "value": "https://github.com/bsormagec/satis-on-heroku",
             "description": "Example repository. Add additional repositories via SATIS_REPOSITORY_* config values.",
             "required": false
         }

@@ -1,6 +1,6 @@
 # Satis on Heroku #
 
-[![Build Status](https://travis-ci.org/Matthimatiker/satis-on-heroku.png?branch=master)](https://travis-ci.org/Matthimatiker/satis-on-heroku)
+[![Build Status](https://travis-ci.org/bsormagec/satis-on-heroku.png?branch=master)](https://travis-ci.org/bsormagec/satis-on-heroku)
 
 Your private Satis instance on Heroku, just one click away.
 

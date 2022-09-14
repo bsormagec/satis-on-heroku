@@ -11,6 +11,9 @@
 
 namespace Matthimatiker\SatisOnHeroku;
 
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
+
 require_once(__DIR__ . '/../vendor/autoload.php');
 
 if (!isset($_SERVER['argv'][1])) {
@@ -27,8 +30,8 @@ $repositories = array_filter($_SERVER, function ($key) {
     return strpos($key, 'SATIS_REPOSITORY_') === 0;
 }, ARRAY_FILTER_USE_KEY);
 
-$loader = new \Twig_Loader_Filesystem(dirname($template));
-$twig = new \Twig_Environment($loader);
+$loader = new FilesystemLoader(dirname($template));
+$twig = new Environment($loader);
 
 echo $twig->render(basename($template), array(
     'env' => $_SERVER,
